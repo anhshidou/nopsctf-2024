@@ -1,5 +1,5 @@
 # Đề bài:
-![Screenshot (515)](https://github.com/ductohno/ehc-adward/assets/152991010/6a010c9e-ac76-4c35-97c2-e1ca3022b255)
+![Screenshot (515)](https://github.com/anhshidou/nopsctf-2024/assets/152991010/c57236c4-fde5-41a9-94a7-32194009a404)
 
 # Note:
 - Trước khi làm bài này, ta cần tải snicat
@@ -47,10 +47,15 @@ log = open(f"./log/{name}", 'w')
 
 - Bài này em sử dụng payload: ```../log/admin``` như là username
 
+- Hoặc có thể xài /admin là username, do logs/admin và log//admin giống nhau
+
 - Chi tiết:
 
-![Screenshot (516)](https://github.com/ductohno/ehc-adward/assets/152991010/c95cf052-a4e2-4c4c-b2aa-eb62582d9a95)
+![Screenshot (516)](https://github.com/anhshidou/nopsctf-2024/assets/152991010/3714df0f-6e05-47c1-972a-694d2c1066b6)
+
 
 # Flag:
 N0PS{pY7h0n_p4Th_7r4v3r54l}
+
+
 

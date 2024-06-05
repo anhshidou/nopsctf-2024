@@ -1,8 +1,8 @@
 # Đề bài:
-![Screenshot (535)](https://github.com/ductohno/ehc-adward/assets/152991010/28e23479-cfbf-4681-8073-bf9c305a9a09)
+![Screenshot (535)](https://github.com/anhshidou/nopsctf-2024/assets/152991010/30a6be2a-76e9-4633-a8dd-cb8f77c55f27)
 
 # Giao diện trang web:
-![Screenshot (536)](https://github.com/ductohno/ehc-adward/assets/152991010/ee89af7f-538b-40f0-bf6c-c74487e1cc1e)
+![Screenshot (536)](https://github.com/anhshidou/nopsctf-2024/assets/152991010/92857624-674a-4b31-a89f-34dae838056b)
 
 # Note:
 - Bài này mình sử dụng webhook để nhận respone
@@ -16,7 +16,7 @@
 
 - Sau khi bấm send,ta nhận được cookie: ```xss2=/bf2a73106a3aa48bab9b8b47e4bd350e```
 ### Phase 2:
-![Screenshot (537)](https://github.com/ductohno/ehc-adward/assets/152991010/52248f77-2692-488d-884d-2f31124812f8)
+![Screenshot (537)](https://github.com/anhshidou/nopsctf-2024/assets/152991010/c30df7df-5f0d-46a8-8f22-a91355f92a38)
 
 - Ở phase 2, nếu trong payload có script, img hoặc svg thì nó sẽ xóa chữ đó đi, ở đây ta có 2 hướng giải:
    
@@ -31,7 +31,7 @@
 
 - Sau khi bấm send,ta nhận được cookie: ```xss3=/3e79c8a64bd10f5fa897b7832384f043```
 ### Phase 3:
-![Screenshot (538)](https://github.com/ductohno/ehc-adward/assets/152991010/7eb9d080-cc19-470d-ac5f-536d98796f4f)
+![Screenshot (538)](https://github.com/anhshidou/nopsctf-2024/assets/152991010/f19cacfa-6b6f-4577-8f8a-8426c87f1852)
 
 - Ở phase 3, chúng ta có 1 filter hoàn toàn khác khi mà xích document, cookie và dấu :// và filter của phase 2
 
@@ -48,11 +48,11 @@
 
 - Dãy số trên mang ý nghĩa là:
 
-![Screenshot (540)](https://github.com/ductohno/ehc-adward/assets/152991010/affcfc36-fa6d-4384-8696-3f0f67b39895)
+![Screenshot (540)](https://github.com/anhshidou/nopsctf-2024/assets/152991010/e810d9dd-1fd8-44f7-b396-6d5298c6eab7)
 
 - Sau khi bấm send, ta nhận được cookie: xss4=/f40e749b80cff27f8e726b2a95740dd6
 ### Phase 4:
-![Screenshot (492)](https://github.com/ductohno/ehc-adward/assets/152991010/274a2cd9-38d9-4b25-b9b6-80ca41aea5eb)
+![Screenshot (492)](https://github.com/anhshidou/nopsctf-2024/assets/152991010/dcfaf19b-eb10-45fd-82a2-d0c66347e7a3)
 
 - Ở phase 4, thật sự mọi thứ đã khó hơn rất nhiều khi web đã filter dấu ", + và /
 
@@ -69,7 +69,8 @@
 
 ### Kết quả cuối cùng
 - Sau khi bấm send ở xss 4, ta nhận được flag:
-![Screenshot (497)](https://github.com/ductohno/ehc-adward/assets/152991010/6ec17371-23ef-4496-ad3d-152f528e9858)
+
+![Screenshot (497)](https://github.com/anhshidou/nopsctf-2024/assets/152991010/15da2952-5361-4e98-859d-1c0f600b52fd)
 
 # Flag:
 N0PS{cR05s_S1t3_Pr0_5cR1pT1nG}
